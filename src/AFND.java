@@ -1,9 +1,13 @@
+import java.util.Stack;
+
 public class AFND {
-
-    public AFND (String[] arreglo){
-
+    String expresionRegular;
+    Stack<Character> pila = new Stack<>();
+    AFND(String expresion){
+        expresionRegular = expresion;
 
     }
+
 
 
 }

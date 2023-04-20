@@ -11,9 +11,9 @@ public class ProcessBuilderDemo {
         Scanner tcld= new Scanner(System.in);
         String ER=tcld.next();
 
-        String[] arreglo=ER.split("\\\\.|\\\\*|\\\\|");
 
-        AFND afnd= new AFND(arreglo);
+
+        AFND afnd= new AFND(ER);
 
 
 
