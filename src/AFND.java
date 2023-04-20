@@ -1,12 +1,23 @@
 import java.util.Stack;
 
 public class AFND {
-    String expresionRegular;
-    Stack<Character> pila = new Stack<>();
-    AFND(String expresion){
-        expresionRegular = expresion;
+
+    char[] arreglo;
+    AFND(char[] arreglo){
+        this.arreglo=arreglo;
 
     }
+
+
+    public void Imprimir(){ //Metodo auxiliar para revisar q se envio bien los caracteres
+
+        for (char a:arreglo) {
+            System.out.println(a);
+
+        }
+    }
+
+
 
 
 

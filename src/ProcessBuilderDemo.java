@@ -6,14 +6,19 @@ public class ProcessBuilderDemo {
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
-
         System.out.println("Ingrese la exprecion regular:");
         Scanner tcld= new Scanner(System.in);
+
         String ER=tcld.next();
+        char[] arreglo= ER.toCharArray();
+
+        AFND afnd= new AFND(arreglo);
+
+        afnd.Imprimir();
 
 
 
-        AFND afnd= new AFND(ER);
+
 
 
 
