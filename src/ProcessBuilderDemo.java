@@ -14,7 +14,10 @@ public class ProcessBuilderDemo {
 
         AFND afnd= new AFND(arreglo);
 
-        afnd.Imprimir();
+
+        afnd.imprimirAFND();
+
+
 
 
 
