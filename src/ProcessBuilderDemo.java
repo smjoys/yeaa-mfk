@@ -12,19 +12,7 @@ public class ProcessBuilderDemo {
         String ER=tcld.next();
         char[] arreglo= ER.toCharArray();
 
-        AFND afnd= new AFND(arreglo);
-
-        afnd.Imprimir();
-
-
-
-
-
-
-
-
-
-
+        Identificador id= new Identificador(arreglo);
 
 
 

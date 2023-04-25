@@ -1,71 +1,15 @@
-import java.util.Stack;
+import java.util.*;
 
 public class AFND {
+    Estado inicial;
+    Estado finall;
 
-    char[] arreglo;
-    AFND(char[] arreglo){
-        this.arreglo=arreglo;
 
+
+    AFND(Estado inicial, Estado Final) {
+        this.inicial = inicial;
+        this.finall = finall;
     }
-
-
-    public void Imprimir(){ //Metodo auxiliar para revisar q se envio bien los caracteres
-
-        for (char er:arreglo) {
-            System.out.println(er);
-        }
-    }
-
-    int num=0;
-    public void CrearAFND(){
-
-        for (char er:arreglo) {
-            num++;
-            switch (er){
-
-                case 'a':
-                    Nodo n= new Nodo(num,null,null,null);
-
-
-                    break;
-
-                case 'b':
-                    Nodo no= new Nodo(num,null,null,null);
-
-
-                    break;
-
-                case '.':
-
-
-
-                    break;
-
-                case '*':
-
-
-
-                    break;
-
-                case '|':
-
-
-                    break;
-
-
-
-
-
-
-
-        }
-
-
-
-    }
-    }
-
-
 
 
 
