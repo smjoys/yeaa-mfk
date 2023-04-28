@@ -12,6 +12,5 @@ public class ProcessBuilderDemo {
         char[] arreglo= ER.toCharArray();
 
         Identificador id= new Identificador(arreglo);
-
     }
 }

@@ -26,6 +26,7 @@ public class Pila {
             p[++tope] =c;
 
             return true;
+
         }
     }
 
@@ -37,6 +38,7 @@ public class Pila {
             AFND aux = p[tope];
             tope--;
             return aux;
+
         }
     }
 

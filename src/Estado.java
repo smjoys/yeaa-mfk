@@ -12,5 +12,6 @@ public class Estado {
                 trans.put(c, new ArrayList<>());
         }
         trans.get(c).add(next);
+
         }
 }

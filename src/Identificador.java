@@ -3,7 +3,6 @@ public class Identificador {
 
     public Identificador(char[] arreglo) {
         char[] er = arreglo;
-
     }
 
     private AFND separar(char[] er) {
@@ -65,7 +64,6 @@ public class Identificador {
                     estado.addTrans(c, estadoSig);
                     AFNDpila.push(new AFND(estado, estadoSig));
                     break;
-
 
             }
         }
