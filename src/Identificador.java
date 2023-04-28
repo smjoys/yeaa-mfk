@@ -10,6 +10,7 @@ public class Identificador {
 
         Pila AFNDpila = new Pila(er.length);
 
+        int cont;
         for (char c : er) {
             switch (c) {
                 case '*':
