@@ -40,4 +40,8 @@ public class Pila {
         }
     }
 
+    public boolean isEmpty() {
+        return tope == -1;
+    }
+
 }

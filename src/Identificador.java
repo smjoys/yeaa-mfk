@@ -10,7 +10,6 @@ public class Identificador {
 
         Pila AFNDpila = new Pila(er.length);
 
-
         for (char c : er) {
             switch (c) {
                 case '*':
@@ -65,19 +64,22 @@ public class Identificador {
                     estado.addTrans(c, estadoSig);
                     AFNDpila.push(new AFND(estado, estadoSig));
                     break;
+
+
             }
         }
 
-        for (int i=0;i< er.length;i++){
-            System.out.println(AFNDpila.pop());
+        while (!AFNDpila.isEmpty()) {
+            System.out.println(AFNDpila.pop().toString());
         }
 
-
-        AFND afnd = AFNDpila.pop();
-
-        return afnd;
+        return AFNDpila.pop();
 
     }
+
+
+
+
 }
 
 
